@@ -37,6 +37,36 @@ body {
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* first nav */
+
+
+.fimg2{
+  height: 20px;
+  width: 20px;
+}
+
+.fimg3{
+  height: 20px;
+  width: 25px;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* second nacv  */
+
+.minilogod{
+ position: relative;
+ left: 600px;
+}
+.icons{
+  position: relative;
+  left: 870px;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* zooming effect */
 .zoom:hover{
@@ -365,6 +395,8 @@ background-image: url(https://miniso.pk/cdn/shop/files/Untitled-15_720x.png?v=16
   height: 2200px;
   width: 100%;
   opacity: 0.85;
+  background-position: center;
+  background-size: cover;
   
 }
 .gimg2{
@@ -551,8 +583,8 @@ color: red;
 
 @media screen and (max-width:500px) {
   .minisologo{
-    height: 2000px;
-    width: 2000px;
+height: 200px;
+width: 200px;
   }
   .mySwipermain{
     height: 120px;
@@ -566,11 +598,5 @@ color: red;
     width: 370px;
     margin-left: -58px;
   }
-  .swiper3{
-    
-
-  }
-
-  
 }
 

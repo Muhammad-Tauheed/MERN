@@ -14,20 +14,20 @@ const Mainnav = () => {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav m-auto mb-2 mb-lg-0">
       <li class="nav-item">
-          <Link class=" clr nav-link fw-bold " to="/">HOME</Link>
+          <Link class=" clr nav-link fw-bold mx-3" to="/">HOME</Link>
         </li>
         <li class="nav-item">
-          <Link class=" clr nav-link fw-bold" to="/newarrivals">NEW ARRIVALS</Link>
+          <Link class=" clr nav-link fw-bold mx-3" to="/newarrivals">NEW ARRIVALS</Link>
         </li>
         <li class="nav-item">
-          <Link class="clr nav-link fw-bold" to="/lotso">LOTSO</Link>
+          <Link class="clr nav-link fw-bold mx-3" to="/lotso">LOTSO</Link>
         </li>
         <li class="nav-item">
-          <Link class=" clr nav-link fw-bold" to="/bear">WE BARE BEARS</Link>
+          <Link class=" clr nav-link fw-bold mx-3" to="/bear">WE BARE BEARS</Link>
         </li>
 
         <li class=" nav-item dropdown fw-bold">
-          <Link class="clr nav-link dropdown-toggle" to="/cat" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link class="clr nav-link dropdown-toggle mx-3" to="/cat" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             CATEGORIES
           </Link>
           <ul class="dropdown-menu">
@@ -38,7 +38,7 @@ const Mainnav = () => {
           </ul>
         </li>
         <li class=" nav-item dropdown fw-bold">
-          <Link class=" clr nav-link dropdown-toggle" to="/loyalty" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link class=" clr nav-link dropdown-toggle mx-3" to="/loyalty" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             LOYALTY
           </Link>
           <ul class="dropdown-menu">
@@ -49,7 +49,7 @@ const Mainnav = () => {
           </ul>
         </li>
         <li class=" nav-item fw-bold">
-          <Link class=" clr nav-link" to="/contact">CONTACT US</Link>
+          <Link class=" clr nav-link mx-3" to="/contact">CONTACT US</Link>
         </li>
 
      

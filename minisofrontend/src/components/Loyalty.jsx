@@ -8,7 +8,7 @@ const Loyalty = () => {
   return (
     <>
     
-    <div className='gimg container '>
+    <div className='gimg container'>
 
       <div className='d-flex'>
         <div><img src="https://cdn.shopify.com/s/files/1/0500/8539/6644/files/untitled-3_cgkV_58x36_crop_top.png" alt="" className='mt-5 gimg2'/></div>

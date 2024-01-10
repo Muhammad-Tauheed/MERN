@@ -1,9 +1,10 @@
-const product=require("../model/product.model")
+const Product=require("../model/product.model")
 
 
 exports.store=async(req,res)=>{
     try{
-        const product =await Product.creat(req.body)
+       
+        const product =await Product.create(req.body)
         res.json({message:"product Created Successfully",status:201,success:true,product})
     }
     catch(err){
