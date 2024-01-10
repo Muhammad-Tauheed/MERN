@@ -35,8 +35,10 @@ const About = () => {
             <p>Enter your email to receive the latest store news, special <br />
             offers, exclusive discounts and other useful information <br />
             daily.</p>
-            <div className='email'>Email Address</div>
-            <button className='sub'>SUBSCRIBE</button>
+            <div class="mb-3 ">
+  <input type="email" class="form-control email" id="exampleFormControlInput1" placeholder="Email address"/>
+</div>
+            <button className='sub btn '>SUBSCRIBE</button>
         </div>
 
     </div>

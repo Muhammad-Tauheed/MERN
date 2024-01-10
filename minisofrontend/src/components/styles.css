@@ -208,6 +208,7 @@ background-image: url(https://miniso.pk/cdn/shop/files/Untitled-15_720x.png?v=16
   width: 360px;
   background-color: white;
   border: 1px solid red;
+  border-radius: 0px;
   display: flex;
   align-items: center;
   color: lightslategray;
@@ -216,7 +217,8 @@ background-image: url(https://miniso.pk/cdn/shop/files/Untitled-15_720x.png?v=16
 .sub{
   height: 40px;
   width: 100px;
-  background-color: red;
+  font-size: 12px;
+  background-color: #e70d1e;
   color: white;
   display: flex;
   align-items: center;
@@ -231,7 +233,7 @@ background-image: url(https://miniso.pk/cdn/shop/files/Untitled-15_720x.png?v=16
 
 /* last nav  */
 .red{
-  background-color: red;
+  background-color: #e70d1e;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
